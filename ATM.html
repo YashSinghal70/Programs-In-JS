@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    
+<script>
+let balance=Number(20000);
+let withDrawl=Number(prompt("Enter The withDrawl Amount"));
+
+let c=balance-withDrawl;
+document.writeln("Remaining Balance is = ",c);
+
+if(withDrawl > balance){
+    document.writeln("Insufficient Balance")
+
+}
+else if(withDrawl >=balance){
+    alert("Are You Sure All Amount To Be Withdrawl");
+    // document.writeln("Remaining Balance is = ",c);
+}
+
+</script>
+
+</body>
+</html>

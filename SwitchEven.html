@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd & Even Using SWitch</title>
+</head>
+<body>
+    <script>
+let ch=Number(prompt("Enter The Choice (1: Even Check, 2: Odd Check)"));
+let a=Number(prompt("Enter The number"));
+
+
+switch(ch)
+{
+    case 1:
+        if(a%2==0)
+{
+            document.writeln("Even Number = "+a);
+}    else
+{
+    document.writeln("Not Even Number = "+a); 
+}
+    break;
+    case 2:
+        if(a%2 !=0){
+        document.writeln("Odd Number = "+a);
+        }
+        else
+{
+    document.writeln("Not Odd Number = "+a); 
+}
+    break;
+    default:
+        document.writeln("Invalid Input");
+}
+
+
+
+    </script>
+    
+</body>
+</html>
